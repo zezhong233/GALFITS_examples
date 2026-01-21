@@ -1,0 +1,137 @@
+# target: obj40_8_sed
+# config file: /home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/obj40sed_1
+# fitting mode: images - SED
+# fiting method: optimizer
+# chisq: 234042.703125
+# reduced chisq: 1.4441732168197632
+# BIC: 234522.53125
+# fitting time: 25.9358562151591 mins
+############# data summary ############## 
+# image atals: jwst
+#    image number: 0  band: nircam_f115w  chisq: [36283.9]  dof: [40723.]  reduced chisq: [0.89099276]
+#    image number: 1  band: nircam_f150w  chisq: [33391.293]  dof: [40734.]  reduced chisq: [0.8197401]
+#    image number: 2  band: nircam_f200w  chisq: [44820.652]  dof: [40716.]  reduced chisq: [1.1008117]
+#    image number: 3  band: nircam_f277w  chisq: [28837.115]  dof: [9984.]  reduced chisq: [2.8883328]
+#    image number: 4  band: nircam_f356w  chisq: [39260.965]  dof: [9977.]  reduced chisq: [3.9351473]
+#    image number: 5  band: nircam_f410m  chisq: [19526.871]  dof: [9984.]  reduced chisq: [1.9558164]
+#    image number: 6  band: nircam_f444w  chisq: [31921.902]  dof: [9982.]  reduced chisq: [3.1979465]
+############ fitting summary ############ 
+# num_steps: 25000  learning_rate: 0.0008 calculate_hessian: False 
+# free parameters:
+pname    best_value
+sky_nircam_f115w    0.0043
+sky_nircam_f150w    0.0058
+sky_nircam_f200w    0.0086
+sky_nircam_f277w    0.0052
+sky_nircam_f356w    0.0097
+sky_nircam_f410m    -0.0004
+sky_nircam_f444w    -0.0021
+obj0_f_cont_bin1    -0.7215
+obj0_f_cont_bin2    -3.6977
+obj0_f_cont_bin3    -5.7558
+obj0_f_cont_bin4    -5.4333
+obj0_f_cont_bin5    -3.9734
+obj0_Z_value    0.0020
+obj0_Av_value    1.3862
+logM_obj0    9.9347
+obj1_f_cont_bin1    -5.4228
+obj1_f_cont_bin2    -5.5327
+obj1_f_cont_bin3    -3.6818
+obj1_f_cont_bin4    -0.6130
+obj1_f_cont_bin5    -0.8268
+obj1_Z_value    0.0105
+obj1_Av_value    0.0008
+logM_obj1    10.3357
+obj2_f_cont_bin1    -0.7695
+obj2_f_cont_bin2    -5.7624
+obj2_f_cont_bin3    -5.8389
+obj2_f_cont_bin4    -4.7880
+obj2_f_cont_bin5    -3.9429
+obj2_Z_value    0.0088
+obj2_Av_value    0.3737
+logM_obj2    7.7176
+xcen_AGN    0.0682
+ycen_AGN    0.0361
+AGN_nircam_f115w_logL    37.8746
+AGN_nircam_f150w_logL    37.9170
+AGN_nircam_f200w_logL    37.8199
+AGN_nircam_f277w_logL    37.2955
+AGN_nircam_f356w_logL    37.7243
+AGN_nircam_f410m_logL    37.2442
+AGN_nircam_f444w_logL    37.2413
+# fixed parameters:
+# pname    fixed_value
+csx_nircam_f115w    -0.9378
+csy_nircam_f115w    0.1674
+csx_nircam_f150w    -0.5973
+csy_nircam_f150w    -0.2253
+csx_nircam_f200w    -0.7922
+csy_nircam_f200w    -0.0394
+csx_nircam_f277w    -0.8736
+csy_nircam_f277w    -0.7097
+csx_nircam_f356w    -0.8900
+csy_nircam_f356w    -0.6130
+csx_nircam_f410m    -0.8233
+csy_nircam_f410m    -0.7686
+csx_nircam_f444w    -0.8828
+csy_nircam_f444w    -0.7740
+Ni_AGN_jwst    1.0000
+obj0_sigma    100.0000
+logU_obj0    -2.0000
+AVbump_obj0    3.0000
+logMdust_obj0    8.1400
+Umin_obj0    1.0000
+qPAH_obj0    1.0000
+alphad_obj0    1.0000
+gammad_obj0    0.1000
+obj0_xcen    0.0700
+obj0_ycen    -0.0159
+obj0_Re    0.1145
+obj0_n    2.1792
+obj0_ang    74.7600
+obj0_axrat    0.9197
+obj1_sigma    100.0000
+logU_obj1    -2.0000
+AVbump_obj1    3.0000
+logMdust_obj1    8.1400
+Umin_obj1    1.0000
+qPAH_obj1    1.0000
+alphad_obj1    1.0000
+gammad_obj1    0.1000
+obj1_xcen    0.0004
+obj1_ycen    0.0473
+obj1_Re    0.7522
+obj1_n    0.2901
+obj1_ang    179.9958
+obj1_axrat    0.9959
+obj2_sigma    100.0000
+logU_obj2    -2.0000
+AVbump_obj2    3.0000
+logMdust_obj2    8.1400
+Umin_obj2    1.0000
+qPAH_obj2    1.0000
+alphad_obj2    1.0000
+gammad_obj2    0.1000
+obj2_xcen    0.2186
+obj2_ycen    -2.2967
+obj2_Re    0.4193
+obj2_n    1.4369
+obj2_ang    -7.4030
+obj2_axrat    0.1205
+agn_logMAGN    7.0000
+agn_logLeddAGN    -1.0000
+agn_spinAGN    0.0000
+agn_AvAGN    0.0000
+AGNlogL5100    42.0000
+z_AGN    1.0000
+AGNtorus_logL    41.0000
+AGNtorus_a    -0.5000
+AGNtorus_h    0.5000
+AGNtorus_N0    7.0000
+AGNtorus_i    15.0000
+AGNLhotdust    36.0000
+z_gal_1    0.6380
+scale_gal_1    7.0719
+z_gal_2    0.6380
+scale_gal_2    7.0719
+######################################### 

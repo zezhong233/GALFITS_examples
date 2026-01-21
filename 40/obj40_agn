@@ -1,0 +1,257 @@
+# galfits config file for galaxy id=40
+# Region information
+
+R1) obj40_7
+R2) [214.98547,52.89777]
+R3) 0.638
+
+# input images for F115W band
+Ia1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F115Wsci.fits,0]
+Ia2) nircam_f115w
+Ia3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F115Wsigma.fits,0]
+Ia4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F115W_hybrid.fits,0]
+Ia5) 1
+Ia6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F115W.fits,0]
+Ia7) MJy/sr
+Ia8) 2.0254626357889616 
+Ia9) 4.692087135707939e+20 
+Ia10) 28.96697568756239
+Ia11) uniform
+Ia12) [[0,-0.5,0.5,0.1,1]]
+Ia13) 1
+Ia14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ia15) 0
+
+# input images for F150W band
+Ib1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F150Wsci.fits,0]
+Ib2) nircam_f150w
+Ib3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F150Wsigma.fits,0]
+Ib4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F150W_hybrid.fits,0]
+Ib5) 1
+Ib6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F150W.fits,0]
+Ib7) MJy/sr
+Ib8) 2.0254626357889616 
+Ib9) 7.982756941658119e+20 
+Ib10) 28.96697568756239
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,1]]
+Ib13) 1
+Ib14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ib15) 0
+
+# input images for F200W band
+Ic1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F200Wsci.fits,0]
+Ic2) nircam_f200w
+Ic3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F200Wsigma.fits,0]
+Ic4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F200W_hybrid.fits,0]
+Ic5) 1
+Ic6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F200W.fits,0]
+Ic7) MJy/sr
+Ic8) 2.0254626357889616 
+Ic9) 1.4191567896281098e+21 
+Ic10) 28.96697568756239
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,1]]
+Ic13) 1
+Ic14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ic15) 0
+
+# input images for F277W band
+Id1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F277Wsci.fits,0]
+Id2) nircam_f277w
+Id3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F277Wsigma.fits,0]
+Id4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F277W_hybrid.fits,0]
+Id5) 1
+Id6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F277W.fits,0]
+Id7) MJy/sr
+Id8) 2.0254626357889616 
+Id9) 6.805655081960954e+20 
+Id10) 27.461825709242483
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,1]]
+Id13) 1
+Id14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Id15) 0
+
+# input images for F356W band
+Ie1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F356Wsci.fits,0]
+Ie2) nircam_f356w
+Ie3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F356Wsigma.fits,0]
+Ie4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F356W_hybrid.fits,0]
+Ie5) 1
+Ie6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F356W.fits,0]
+Ie7) MJy/sr
+Ie8) 2.0254626357889616 
+Ie9) 1.124114093064426e+21 
+Ie10) 27.461825709242483
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,1]]
+Ie13) 1
+Ie14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ie15) 0
+
+# input images for F410M band
+If1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F410Msci.fits,0]
+If2) nircam_f410m
+If3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F410Msigma.fits,0]
+If4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F410M_hybrid.fits,0]
+If5) 1
+If6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F410M.fits,0]
+If7) MJy/sr
+If8) 2.0254626357889616 
+If9) 1.491001602103033e+21 
+If10) 27.461825709242483
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,1]]
+If13) 1
+If14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+If15) 0
+
+# input images for F444W band
+Ig1) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F444Wsci.fits,0]
+Ig2) nircam_f444w
+Ig3) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/40_F444Wsigma.fits,0]
+Ig4) [/RS2423/JWST/BLAGN_legacy/CEERS_PID_1345_NIRCam/Ready_Data/Pointing_5/PSF/F444W_hybrid.fits,0]
+Ig5) 1
+Ig6) [/home/zhongyi/work/GALFITS/DATA/P5/galaxy/40/mask40_F444W.fits,0]
+Ig7) MJy/sr
+Ig8) 2.0254626357889616 
+Ig9) 1.7485430805007945e+21 
+Ig10) 27.461825709242483
+Ig11) uniform
+Ig12) [[0,-0.5,0.5,0.1,1]]
+Ig13) 1
+Ig14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ig15) 0
+
+# image atlas
+Aa1) 'jwst'
+Aa2) ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+Aa3) False
+Aa4) 0
+Aa5) []
+Aa6) []
+Aa7) []
+
+# Sersic function
+# (primary/secondary) object has not yet been fit, output file does not exist
+# 40
+Pa1) obj0
+Pa2) sersic
+Pa3) [0.00,-0.30,0.30,0.1,1]
+Pa4) [0.00,-0.30,0.30,0.1,1]
+Pa5) [0.26,0.009,2.0254626357889616,0.009,1] 
+Pa6) [2.5,0.2,8,0.1,1] 
+Pa7) [75.57,-180,180,1,1] 
+Pa8) [0.924,0.1,1,0.02,1] 
+Pa9)  [[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0]]
+Pa10) [0 , 0.1 , 0.29393792681034986 , 0.8639950481756659 , 2.5396091323516354 , 7.464874432720711]
+Pa11) [[0.01,0.001,0.04,0.001,0]] 
+Pa12) [[0.7,0.,5.1,0.1,0]] 
+Pa13) [100,40,200,1,0] 
+Pa14) [8,6 ,12,0.1,1] 
+Pa15) bins 
+Pa16) [-2,-4,-2,0.1,0] 
+Pa26) [3,0,5,0.1,0] 
+Pa27) 0 
+Pa28) [8.14,4.5,10,0.1,0] 
+Pa29) [1.0, 0.1, 50, 0.1, 0] 
+Pa30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pa31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pa32) [0.1, 0, 1.0, 0.1, 1]  
+
+Pb1) obj1
+Pb2) sersic
+Pb3) [0.00,-0.30,0.30,0.1,1]
+Pb4) [0.00,-0.30,0.30,0.1,1]
+Pb5) [0.55,0.009,2.0254626357889616,0.009,1] 
+Pb6) [2,0.2,8,0.1,1] 
+Pb7) [75.57,-180,180,1,1] 
+Pb8) [0.924,0.1,1,0.02,1] 
+Pb9)  [[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0]]
+Pb10) [0 , 0.1 , 0.29393792681034986 , 0.8639950481756659 , 2.5396091323516354 , 7.464874432720711]
+Pb11) [[0.01,0.001,0.04,0.001,0]] 
+Pb12) [[0.7,0.,5.1,0.1,0]] 
+Pb13) [100,40,200,1,0] 
+Pb14) [8,6 ,12,0.1,1] 
+Pb15) bins 
+Pb16) [-2,-4,-2,0.1,0] 
+Pb26) [3,0,5,0.1,0] 
+Pb27) 0 
+Pb28) [8.14,4.5,10,0.1,0] 
+Pb29) [1.0, 0.1, 50, 0.1, 0] 
+Pb30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pb31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pb32) [0.1, 0, 1.0, 0.1, 1]  
+
+Pc1) obj2
+Pc2) sersic
+Pc3) [0.29,-0.01,0.59,0.1,1]
+Pc4) [-2.27,-2.57,-1.97, 0.1,1]
+Pc5) [0.23,0.009,2.0254626357889616,0.009,1] 
+Pc6) [2,0.2,8,0.1,1] 
+Pc7) [30,-180,180,1,1] 
+Pc8) [0.2,0.01,1,0.02,1] 
+Pc9)  [[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0],[-2,-8,0,0.1,0]]
+Pc10) [0 , 0.1 , 0.29393792681034986 , 0.8639950481756659 , 2.5396091323516354 , 7.464874432720711]
+Pc11) [[0.01,0.001,0.04,0.001,0]] 
+Pc12) [[0.7,0.,5.1,0.1,0]] 
+Pc13) [100,40,200,1,0] 
+Pc14) [8,6 ,12,0.1,1] 
+Pc15) bins 
+Pc16) [-2,-4,-2,0.1,0] 
+Pc26) [3,0,5,0.1,0] 
+Pc27) 0 
+Pc28) [8.14,4.5,10,0.1,0] 
+Pc29) [1.0, 0.1, 50, 0.1, 0] 
+Pc30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pc31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pc32) [0.1, 0, 1.0, 0.1, 1]  
+
+
+# all objects to be fitted
+Ga1) gal_1
+Ga2) ["a", "b"]
+Ga3) [0.638,0.01,12,0.01,0]
+Ga4) 0.0077
+Ga5) [1.,0.8,1.2,0.05,0] 
+Ga6) [] 
+Ga7) 1 
+
+Gb1) gal_2
+Gb2) ["c"]
+Gb3) [0.638,0.01,12,0.01,0]
+Gb4) 0.0077
+Gb5) [1.,0.8,1.2,0.05,0] 
+Gb6) [] 
+Gb7) 1 
+
+
+# Nuclei A 
+Na1) AGN 
+Na2) [ 0.638, 1,12,1,0]
+Na3) 0.007
+Na4) [0, -0.1, 0.1, 0.01, 1] 
+Na5) [0, -0.1, 0.1, 0.01, 1] 
+Na6) [7, 5, 10, 0.1, 0] 
+Na7) [-1, -4, 2, 0.1, 0] 
+Na8) [0, 0, 0.99, 0.01, 0] 
+Na9) [0, 0, 4, 0.25, 0] 
+Na10) [42, 41, 48, 0.1, 0] 
+Na11) [1, 0, 4, 0.1, 0] 
+Na12) [] 
+Na13) [] 
+Na14) 1 
+Na15) 1 
+Na16) 0 
+Na17) 0 
+Na18) 4 
+Na19) [1, 0.5, 2, 0.05, 0] 
+Na20) 0 
+Na21) [41, 39, 44, 0.1, 0] 
+Na22) [-0.5,-2.5,-0.25,0.05,0] 
+Na23) [0.5,0.25,1.5,0.05,0] 
+Na24) [7,5,10,0.5,0] 
+Na25) [15,0,90,5,0] 
+Na26) [1.,0.2,5,0.1,0] 
+Na27) [36.,35.,42.,0.1,0]

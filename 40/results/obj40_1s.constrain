@@ -1,0 +1,8 @@
+def Update_Constraints(pardictlc):
+    pardictlc['Mag_obj0_nircam_f115w']=28.96697568756239-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f115w']
+    pardictlc['Mag_obj0_nircam_f150w']=28.96697568756239-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f150w']
+    pardictlc['Mag_obj0_nircam_f200w']=28.96697568756239-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f200w']
+    pardictlc['Mag_obj0_nircam_f277w']=27.461825709242483-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f277w']
+    pardictlc['Mag_obj0_nircam_f356w']=27.461825709242483-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f356w']
+    pardictlc['Mag_obj0_nircam_f410m']=27.461825709242483-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f410m']
+    pardictlc['Mag_obj0_nircam_f444w']=27.461825709242483-2.5*pardictlc['logM_obj0']-2.5*pardictlc['logNorm_obj0_nircam_f444w']
