@@ -1,0 +1,91 @@
+# target: 41926_disk_nosed_1
+# config file: /home/zezhong/work/GalfitS/ZHIJIANG/41926/RUBIES_4233_41926.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 2682.0576171875
+# reduced chisq: 0.37437987327575684
+# BIC: 3001.623291015625
+# fitting time: 1.0239069183667502 mins
+############# data summary ############## 
+# image atals: jwst
+#    image number: 0  band: nircam_f115w  chisq: [906.7328]  dof: [3600.]  reduced chisq: [0.25187021]
+#    image number: 1  band: nircam_f277w  chisq: [457.26187]  dof: [900.]  reduced chisq: [0.50806874]
+#    image number: 2  band: nircam_f356w  chisq: [744.1607]  dof: [900.]  reduced chisq: [0.8268452]
+#    image number: 3  band: nircam_f410m  chisq: [256.44482]  dof: [900.]  reduced chisq: [0.2849387]
+#    image number: 4  band: nircam_f444w  chisq: [317.45746]  dof: [900.]  reduced chisq: [0.3527305]
+############ fitting summary ############ 
+# num_steps: 20000  learning_rate: 0.0008 calculate_hessian: False 
+# free parameters:
+pname    best_value
+csx_nircam_f356w    -0.2874
+csy_nircam_f356w    -1.0142
+sky_nircam_f356w    0.0018
+csx_nircam_f277w    -0.3796
+csy_nircam_f277w    -1.0314
+sky_nircam_f277w    0.0009
+csx_nircam_f410m    -0.2144
+csy_nircam_f410m    -1.0478
+sky_nircam_f410m    0.0006
+csx_nircam_f444w    -0.2877
+csy_nircam_f444w    -0.9964
+sky_nircam_f444w    0.0004
+csx_nircam_f115w    -1.7746
+csy_nircam_f115w    -1.1394
+sky_nircam_f115w    0.0009
+logM_disk    8.1862
+logNorm_disk_nircam_f115w    -7.1311
+logNorm_disk_nircam_f277w    -6.9682
+logNorm_disk_nircam_f356w    -6.8431
+logNorm_disk_nircam_f410m    -6.8636
+logNorm_disk_nircam_f444w    -6.7978
+disk_xcen    0.0377
+disk_ycen    0.0265
+disk_Re    0.1423
+disk_n    1.0393
+disk_ang    -109.0520
+disk_axrat    0.3649
+agn_logMAGN    7.0000
+agn_logLeddAGN    -1.0000
+agn_AvAGN    2.0000
+AGNlogL5100    42.0000
+AGN_nircam_f115w_logL    38.5133
+AGN_nircam_f277w_logL    38.1020
+AGN_nircam_f356w_logL    38.0960
+AGN_nircam_f410m_logL    38.3634
+AGN_nircam_f444w_logL    38.3495
+# fixed parameters:
+# pname    fixed_value
+Ni_AGN_jwst    1.0000
+disk_f_cont_bin1    -2.0000
+disk_f_cont_bin2    -2.0000
+disk_f_cont_bin3    -2.0000
+disk_f_cont_bin4    -2.0000
+disk_f_cont_bin5    -2.0000
+disk_Z_value    0.0040
+disk_Av_value    0.7000
+disk_sigma    100.0000
+logU_disk    -2.0000
+AVbump_disk    3.0000
+logMdust_disk    8.1400
+Umin_disk    1.0000
+qPAH_disk    1.0000
+alphad_disk    1.0000
+gammad_disk    0.1000
+Mag_disk_nircam_f115w    26.3292
+Mag_disk_nircam_f277w    24.4167
+Mag_disk_nircam_f356w    24.1041
+Mag_disk_nircam_f410m    24.1552
+Mag_disk_nircam_f444w    23.9906
+xcen_AGN    0.0166
+ycen_AGN    -0.0067
+agn_spinAGN    0.4950
+z_AGN    3.8650
+AGNtorus_logL    41.0000
+AGNtorus_a    -0.5000
+AGNtorus_h    0.5000
+AGNtorus_N0    7.0000
+AGNtorus_i    15.0000
+AGNLhotdust    36.0000
+z_concentric_component    3.8650
+scale_concentric_component    7.2172
+######################################### 

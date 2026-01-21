@@ -1,0 +1,57 @@
+# target: objRUBIES_4233_41926_ps
+# config file: /home/zezhong/work/GalfitS/ZHIJIANG/41926/RUBIES_4233_41926_ps.lyric
+# fitting mode: images - photometry
+# fiting method: optimizer
+# chisq: 30739.611328125
+# reduced chisq: 4.2830729484558105
+# BIC: 30943.8203125
+# fitting time: 0.7119149049123128 mins
+############# data summary ############## 
+# image atals: jwst
+#    image number: 0  band: nircam_f115w  chisq: [949.40656]  dof: [3600.]  reduced chisq: [0.26372403]
+#    image number: 1  band: nircam_f277w  chisq: [6707.5034]  dof: [900.]  reduced chisq: [7.4527817]
+#    image number: 2  band: nircam_f356w  chisq: [16258.351]  dof: [900.]  reduced chisq: [18.064835]
+#    image number: 3  band: nircam_f410m  chisq: [2352.6372]  dof: [900.]  reduced chisq: [2.6140413]
+#    image number: 4  band: nircam_f444w  chisq: [4471.7134]  dof: [900.]  reduced chisq: [4.96857]
+############ fitting summary ############ 
+# num_steps: 20000  learning_rate: 0.0008 calculate_hessian: False 
+# free parameters:
+pname    best_value
+csx_nircam_f444w    -0.8089
+csy_nircam_f444w    -0.6858
+sky_nircam_f444w    0.0103
+csx_nircam_f115w    -2.1416
+csy_nircam_f115w    -0.9132
+sky_nircam_f115w    0.0023
+csx_nircam_f410m    -0.7767
+csy_nircam_f410m    -0.8085
+sky_nircam_f410m    0.0092
+csx_nircam_f277w    -1.1304
+csy_nircam_f277w    -0.7939
+sky_nircam_f277w    0.0076
+csx_nircam_f356w    -0.8663
+csy_nircam_f356w    -0.7473
+sky_nircam_f356w    0.0103
+xcen_AGN    0.0166
+ycen_AGN    -0.0067
+AGNlogL5100    42.0000
+AGN_nircam_f115w_logL    38.7501
+AGN_nircam_f277w_logL    38.9616
+AGN_nircam_f356w_logL    39.1046
+AGN_nircam_f410m_logL    39.1367
+AGN_nircam_f444w_logL    39.1918
+# fixed parameters:
+# pname    fixed_value
+Ni_AGN_jwst    1.0000
+agn_logMAGN    7.0000
+agn_logLeddAGN    -1.0000
+agn_spinAGN    0.4950
+agn_AvAGN    2.0000
+z_AGN    3.8650
+AGNtorus_logL    41.0000
+AGNtorus_a    -0.5000
+AGNtorus_h    0.5000
+AGNtorus_N0    7.0000
+AGNtorus_i    15.0000
+AGNLhotdust    36.0000
+######################################### 

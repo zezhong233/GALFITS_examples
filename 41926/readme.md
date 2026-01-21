@@ -17,7 +17,7 @@
 
 ### 2. 添加延展sersic model 1
 
-初始参数设置成GalfitX的输出，发现长波波段仍有明显residual, 尝试添加第二个sersic
+初始参数设置成GalfitX的输出，发现长波波段仍有明显residual, 尝试添加第二个sersic。
 
 ![](./41926_disk_1image_fit.png)
 

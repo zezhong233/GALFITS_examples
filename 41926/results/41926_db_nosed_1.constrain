@@ -1,0 +1,11 @@
+def Update_Constraints(pardictlc):
+    pardictlc['Mag_bugle_nircam_f115w']=28.96697568756239-2.5*pardictlc['logM_bugle']-2.5*pardictlc['logNorm_bugle_nircam_f115w']
+    pardictlc['Mag_bugle_nircam_f277w']=27.461825709242483-2.5*pardictlc['logM_bugle']-2.5*pardictlc['logNorm_bugle_nircam_f277w']
+    pardictlc['Mag_bugle_nircam_f356w']=27.461825709242483-2.5*pardictlc['logM_bugle']-2.5*pardictlc['logNorm_bugle_nircam_f356w']
+    pardictlc['Mag_bugle_nircam_f410m']=27.461825709242483-2.5*pardictlc['logM_bugle']-2.5*pardictlc['logNorm_bugle_nircam_f410m']
+    pardictlc['Mag_bugle_nircam_f444w']=27.461825709242483-2.5*pardictlc['logM_bugle']-2.5*pardictlc['logNorm_bugle_nircam_f444w']
+    pardictlc['Mag_disk_nircam_f115w']=28.96697568756239-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_nircam_f115w']
+    pardictlc['Mag_disk_nircam_f277w']=27.461825709242483-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_nircam_f277w']
+    pardictlc['Mag_disk_nircam_f356w']=27.461825709242483-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_nircam_f356w']
+    pardictlc['Mag_disk_nircam_f410m']=27.461825709242483-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_nircam_f410m']
+    pardictlc['Mag_disk_nircam_f444w']=27.461825709242483-2.5*pardictlc['logM_disk']-2.5*pardictlc['logNorm_disk_nircam_f444w']
