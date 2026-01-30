@@ -1,0 +1,3 @@
+def Update_Constraints(pardictlc):
+    pardictlc["disk_xcen"] = 1 * pardictlc["bulge_xcen"]
+    pardictlc["disk_ycen"] = 1 * pardictlc["bulge_ycen"]
