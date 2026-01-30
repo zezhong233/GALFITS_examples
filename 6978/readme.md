@@ -114,6 +114,7 @@ galfits obj6978_s1_sed.lyric  --workplace results --fit_method ES --num_generati
 **2. 拟合输出文件名**
 
 - obj6978_s1_sed_3image_fit.png
+- obj6978_s1_sed_3SED_model.png
 - obj6978_s1_sed_3.gssummary 
 - obj6978_s1_sed_3.params
 - obj6978_s1_sed_3.constrain 
@@ -149,9 +150,11 @@ galfits obj_6978_s2r_sed.lyric --workplace results --fit_method ES --num_generat
 **2. 拟合输出文件名**
 
 - obj6978_s2r_sed_ES_1image_fit.png
+- obj6978_s2r_sed_ES_1SED_model.png
 - obj6978_s2r_sed_ES_1.gssummary
 - obj6978_s2r_sed_ES_1.params 
 - obj6978_s2r_sed_ES_1.constrain 
+- 
 
 **3. 本轮观察到的问题**
 
