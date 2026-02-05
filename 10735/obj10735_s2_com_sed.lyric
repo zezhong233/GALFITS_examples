@@ -1,0 +1,227 @@
+# galfits config file for galaxy 10735
+# Region information
+
+R1) obj10735_s2_com_sed_1
+R2) [214.89675,52.84982]
+R3) 2.29800
+
+# input images for nircam_f115w band
+Ia1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f115w.fits,0]
+Ia2) nircam_f115w
+Ia3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f115w_err.fits,0]
+Ia4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F115W_hybrid.fits,0]
+Ia5) 1
+Ia6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f115w_mask.fits,0]
+Ia7) MJy/sr
+Ia8) 2 
+Ia9) 4.692087135707939e+20 
+Ia10) 28.96697568756239
+Ia11) uniform
+Ia12) [[0,-0.5,0.5,0.1,0]]
+Ia13) 1
+Ia14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ia15) 1
+
+# input images for nircam_f150w band
+Ib1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f150w.fits,0]
+Ib2) nircam_f150w
+Ib3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f150w_err.fits,0]
+Ib4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F150W_hybrid.fits,0]
+Ib5) 1
+Ib6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f150w_mask.fits,0]
+Ib7) MJy/sr
+Ib8) 2 
+Ib9) 7.982756941658119e+20 
+Ib10) 28.96697568756239
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,0]]
+Ib13) 1
+Ib14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ib15) 1
+
+# input images for nircam_f200w band
+Ic1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f200w.fits,0]
+Ic2) nircam_f200w
+Ic3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f200w_err.fits,0]
+Ic4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F200W_hybrid.fits,0]
+Ic5) 1
+Ic6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f200w_mask.fits,0]
+Ic7) MJy/sr
+Ic8) 2 
+Ic9) 1.4191567896281098e+21 
+Ic10) 28.96697568756239
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,0]]
+Ic13) 1
+Ic14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ic15) 1
+
+# input images for nircam_f277w band
+Id1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f277w.fits,0]
+Id2) nircam_f277w
+Id3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f277w_err.fits,0]
+Id4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F277W_hybrid.fits,0]
+Id5) 1
+Id6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f277w_mask.fits,0]
+Id7) MJy/sr
+Id8) 2 
+Id9) 6.805655081960954e+20 
+Id10) 27.461825709242483
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,0]]
+Id13) 1
+Id14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Id15) 1
+
+# input images for nircam_f356w band
+Ie1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f356w.fits,0]
+Ie2) nircam_f356w
+Ie3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f356w_err.fits,0]
+Ie4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F356W_hybrid.fits,0]
+Ie5) 1
+Ie6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f356w_mask.fits,0]
+Ie7) MJy/sr
+Ie8) 2 
+Ie9) 1.124114093064426e+21 
+Ie10) 27.461825709242483
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,0]]
+Ie13) 1
+Ie14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ie15) 1
+
+# input images for nircam_f410m band
+If1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f410m.fits,0]
+If2) nircam_f410m
+If3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f410m_err.fits,0]
+If4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F410M_hybrid.fits,0]
+If5) 1
+If6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f410m_mask.fits,0]
+If7) MJy/sr
+If8) 2 
+If9) 1.491001602103033e+21 
+If10) 27.461825709242483
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,0]]
+If13) 1
+If14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+If15) 1
+
+# input images for nircam_f444w band
+Ig1) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f444w.fits,0]
+Ig2) nircam_f444w
+Ig3) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f444w_err.fits,0]
+Ig4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/PSF/F444W_hybrid.fits,0]
+Ig5) 1
+Ig6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P6/10735/f444w_mask.fits,0]
+Ig7) MJy/sr
+Ig8) 2 
+Ig9) 1.7485430805007945e+21 
+Ig10) 27.461825709242483
+Ig11) uniform
+Ig12) [[0,-0.5,0.5,0.1,0]]
+Ig13) 1
+Ig14) [[0,-5,5,0.1,1],[0,-5,5,0.1,1]] 
+Ig15) 1
+
+# image atlas
+Aa1) 'jwst'
+Aa2) ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+Aa3) 0
+Aa4) 0
+Aa5) []
+Aa6) []
+Aa7) []
+
+#Galaxy component
+# 10735
+Pa1) disk
+Pa2) sersic
+Pa3) [-0.0823,-0.34,0.26,0.1,1]
+Pa4) [-0.0381,-0.31,0.29,0.1,1]
+Pa5) [ 0.1551,0.01,1.00,0.02,1] 
+Pa6) [0.7992,0.2,8,0.1,1] 
+Pa7) [77.7262,-180.00,180.00,1,1] 
+Pa8) [0.6091,0.1,1,0.02,0] 
+Pa9)  [[ -6.0504,-8,0,0.1,1],[-5.1713, -8,0,0.1,1],[-5.6275,-8,0,0.1,1],[-4.5874,-8,0,0.1,1],[-0.1055,-8,0,0.1,1]]
+Pa10) [0, 0.1, 0.23, 0.51, 1.17, 2.65]
+Pa11) [[0.0026,0.0001,0.04,0.001,1]] 
+Pa12) [[0.0007,0,5.1,0.1,1]] 
+Pa13) [100,40,200,1,0] 
+Pa14) [ 10.0767,6,12,0.1,1] 
+Pa15) bins 
+Pa16) [-2,-4,-2,0.1,0] 
+Pa26) [3,0,5,0.1,0] 
+Pa27) 0 
+Pa28) [8.14,4.5,10,0.1,0] 
+Pa29) [1.0, 0.1, 50, 0.1, 0] 
+Pa30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pa31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pa32) [0.1, 0, 1.0, 0.1, 0]  
+
+Pb1) bulge
+Pb2) sersic
+Pb3) [-0.1163,-0.34,0.26,0.1,1]
+Pb4) [-0.0451,-0.31,0.29,0.1,1]
+Pb5) [0.0523,0.01,1.00,0.02,0] 
+Pb6) [1.0954,0.2,8,0.1,0] 
+Pb7) [-86.8506,-180.00,180.00,1,0] 
+Pb8) [0.6010,0.1,1,0.02,0] 
+Pb9)  [[ -6.9677,-8,0,0.1,1],[-5.8216,-8,0,0.1,1],[-6.0032,-8,0,0.1,1],[-4.5546,-8,0,0.1,1],[-0.0914,-8,0,0.1,1]]
+Pb10) [0, 0.1, 0.23, 0.51, 1.17, 2.65]
+Pb11) [[0.0287,0.0001,0.04,0.001,1]] 
+Pb12) [[2.0234,0.0,5.1,0.1,1]] 
+Pb13) [100,40,200,1,0] 
+Pb14) [10.6271,4,12,0.1,1] 
+Pb15) bins 
+Pb16) [-2,-4,-2,0.1,0] 
+Pb26) [3,0,5,0.1,0] 
+Pb27) 0 
+Pb28) [8.14,4.5,10,0.1,0] 
+Pb29) [1.0, 0.1, 50, 0.1, 0] 
+Pb30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pb31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pb32) [0.1, 0, 1.0, 0.1, 0]  
+
+
+Ga1) galaxy_1
+Ga2) ["a", "b"]
+Ga3) [2.298,0.01,12,0.01,0]
+Ga4) 0.01 
+Ga5) [1.,0.8,1.2,0.05,0] 
+Ga6) [] 
+Ga7) 1 
+
+
+Pc1) com_1
+Pc2) sersic
+Pc3) [0.5750, 0.39, 0.99, 0.01, 1] 
+Pc4) [0.2079, -0.05, 0.55, 0.01, 1] 
+Pc5) [0.2100, 0, 0.27, 0.01, 0] 
+Pc6) [1.2044,0.2,8,0.1,0] 
+Pc7) [84.7353, -180.00, 180.00, 1, 0] 
+Pc8) [ 0.5969, 0.00, 0.61, 0.01, 0]
+Pc9)  [[-0.4394,-8,0,0.1,1],[-6.4118,-8,0,0.1,1],[-6.0696,-8,0,0.1,1],[-5.7581,-8,0,0.1,1],[-5.3056,-8,0,0.1,1]]
+Pc10) [0, 0.1, 0.23, 0.51, 1.17, 2.65]
+Pc11) [[ 0.001,0.0001,0.04,0.001,1]] 
+Pc12) [[0.3959,0,5.1,0.1,1]] 
+Pc13) [100,40,200,1,0] 
+Pc14) [8.3781,4,12,0.1,1] 
+Pc15) bins 
+Pc16) [-2,-4,-2,0.1,0] 
+Pc26) [3,0,5,0.1,0] 
+Pc27) 0 
+Pc28) [8.14,4.5,10,0.1,0] 
+Pc29) [1.0, 0.1, 50, 0.1, 0] 
+Pc30) [1.0, 0.47, 7.32, 0.1, 0] 
+Pc31) [1.0, 1.0, 3.0, 0.1, 0]  
+Pc32) [0.1, 0, 1.0, 0.1, 0]  
+
+
+Gb1) galaxy_2
+Gb2) ["c"]
+Gb3) [2.298,0.01,12,0.01,0]
+Gb4) 0.01 
+Gb5) [1.,0.8,1.2,0.05,0] 
+Gb6) [] 
+Gb7) 1 

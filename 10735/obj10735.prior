@@ -1,0 +1,16 @@
+# MMR represent mass metalicity relation
+# adopt the MMR from Kewley & Ellison 2008 with KD02 method
+# [a0, a1, a2, a3, sigma], log(O/H) + 12 = a0 + a1*logM + a2*logM^2 + a3*logM^3 /pm sigma
+MMRa1) disk 
+MMRa2) [28.0974, -7.23631, 0.850344, -0.0318315]   # Kewley & Ellison 2008 with KD02 method
+MMRa2) [5.74, 0.25, 0.1]  # this is for high redshift, from JWST, Nakajima et al. 2023
+
+
+MMRb1) bulge 
+MMRb2) [28.0974, -7.23631, 0.850344, -0.0318315]   # Kewley & Ellison 2008 with KD02 method
+MMRb2) [5.74, 0.25, 0.1]  # this is for high redshift, from JWST, Nakajima et al. 2023
+
+
+MMRc1) com_1 
+MMRc2) [28.0974, -7.23631, 0.850344, -0.0318315]   # Kewley & Ellison 2008 with KD02 method
+MMRc2) [5.74, 0.25, 0.1]  # this is for high redshift, from JWST, Nakajima et al. 2023
