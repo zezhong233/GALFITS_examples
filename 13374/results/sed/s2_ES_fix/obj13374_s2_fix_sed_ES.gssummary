@@ -1,0 +1,93 @@
+# target: obj13374_s2_fix_sed_ES
+# config file: obj13374_s2.lyric
+# fitting mode: images - SED
+# fiting method: ES
+# chisq: 129943.0546875
+# reduced chisq: 0.9493972659111023
+# BIC: 130345.1640625
+# fitting time: 4.422354567050934 mins
+############# data summary ############## 
+# image atals: jwst
+#    image number: 0  band: nircam_f115w  chisq: [27669.002]  dof: [31571.]  reduced chisq: [0.8764056]
+#    image number: 1  band: nircam_f150w  chisq: [23971.121]  dof: [31571.]  reduced chisq: [0.75927657]
+#    image number: 2  band: nircam_f200w  chisq: [24659.406]  dof: [32957.]  reduced chisq: [0.7482297]
+#    image number: 3  band: nircam_f277w  chisq: [14909.925]  dof: [10201.]  reduced chisq: [1.461614]
+#    image number: 4  band: nircam_f356w  chisq: [17391.328]  dof: [10201.]  reduced chisq: [1.704865]
+#    image number: 5  band: nircam_f410m  chisq: [9637.471]  dof: [10201.]  reduced chisq: [0.94475746]
+#    image number: 6  band: nircam_f444w  chisq: [11704.809]  dof: [10201.]  reduced chisq: [1.1474178]
+############ fitting summary ############ 
+# num_generations: 10000  popsize: 10 
+# free parameters:
+pname    best_value
+csx_nircam_f115w    0.0376
+csy_nircam_f115w    0.5060
+csx_nircam_f150w    0.5710
+csy_nircam_f150w    0.1119
+csx_nircam_f200w    0.2013
+csy_nircam_f200w    -0.0687
+csx_nircam_f277w    -0.1431
+csy_nircam_f277w    -0.0518
+csx_nircam_f356w    -0.1701
+csy_nircam_f356w    -0.2910
+csx_nircam_f410m    -0.0569
+csy_nircam_f410m    0.0629
+csx_nircam_f444w    -0.1979
+csy_nircam_f444w    -0.7218
+disk_f_cont_bin1    -2.1321
+disk_f_cont_bin2    -4.4210
+disk_f_cont_bin3    -4.5651
+disk_f_cont_bin4    -1.2387
+disk_f_cont_bin5    -2.1165
+disk_Av_value    0.0000
+logM_disk    9.6822
+disk_xcen    -0.0294
+disk_ycen    -0.0168
+bulge_f_cont_bin1    -1.8304
+bulge_f_cont_bin2    -4.5916
+bulge_f_cont_bin3    -4.3383
+bulge_f_cont_bin4    -1.3487
+bulge_f_cont_bin5    -2.0127
+bulge_Av_value    0.4868
+logM_bulge    9.5984
+bulge_xcen    -0.0290
+bulge_ycen    0.0093
+Sigma_MZR_bulge    -0.0067
+Sigma_MZR_disk    -0.0108
+# fixed parameters:
+# pname    fixed_value
+sky_nircam_f115w    0.0000
+sky_nircam_f150w    0.0000
+sky_nircam_f200w    0.0000
+sky_nircam_f277w    0.0000
+sky_nircam_f356w    0.0000
+sky_nircam_f410m    0.0000
+sky_nircam_f444w    0.0000
+disk_Z_value    0.0058
+disk_sigma    100.0000
+logU_disk    -2.0000
+AVbump_disk    3.0000
+logMdust_disk    8.1400
+Umin_disk    1.0000
+qPAH_disk    1.0000
+alphad_disk    1.0000
+gammad_disk    0.1000
+disk_Re    0.0669
+disk_n    3.8368
+disk_ang    3.9167
+disk_axrat    0.7430
+bulge_Z_value    0.0055
+bulge_sigma    100.0000
+logU_bulge    -2.0000
+AVbump_bulge    3.0000
+logMdust_bulge    8.1400
+Umin_bulge    1.0000
+qPAH_bulge    1.0000
+alphad_bulge    1.0000
+gammad_bulge    0.1000
+bulge_Re    0.0360
+bulge_n    1.0286
+bulge_ang    39.9110
+bulge_axrat    0.8629
+z_galaxy_1    1.1120
+scale_galaxy_1    8.4119
+######################################### 
