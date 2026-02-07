@@ -1,0 +1,10 @@
+def Update_Constraints(pardictlc):
+    pardictlc['com_Z_value'] = 0.02*10**(5.74+0.25*pardictlc['logM_com']+pardictlc['Sigma_MZR_com']-8.69)
+    pardictlc['com_Z_value'] = jnp.maximum(pardictlc['com_Z_value'], 0.00001)
+    pardictlc['com_Z_value'] = jnp.minimum(pardictlc['com_Z_value'], 0.04)
+    pardictlc['bulge_Z_value'] = 0.02*10**(5.74+0.25*pardictlc['logM_bulge']+pardictlc['Sigma_MZR_bulge']-8.69)
+    pardictlc['bulge_Z_value'] = jnp.maximum(pardictlc['bulge_Z_value'], 0.00001)
+    pardictlc['bulge_Z_value'] = jnp.minimum(pardictlc['bulge_Z_value'], 0.04)
+    pardictlc['disk_Z_value'] = 0.02*10**(5.74+0.25*pardictlc['logM_disk']+pardictlc['Sigma_MZR_disk']-8.69)
+    pardictlc['disk_Z_value'] = jnp.maximum(pardictlc['disk_Z_value'], 0.00001)
+    pardictlc['disk_Z_value'] = jnp.minimum(pardictlc['disk_Z_value'], 0.04)

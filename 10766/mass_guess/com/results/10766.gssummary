@@ -1,0 +1,70 @@
+# target: 10766
+# config file: 10766_com_pure_sed.lyric
+# fitting mode: photometric - SED
+# fiting method: optimizer
+# chisq: 1.9503008127212524
+# reduced chisq: -1.9503008127212524
+# BIC: nan
+# fitting time: 1.6003421982129415 mins
+############# data summary ############## 
+# image atals: all
+#    image number: 0  band: nircam_f115w  chisq: [0.6216978]  dof: [1.]  reduced chisq: [0.6216978]
+#    image number: 1  band: nircam_f150w  chisq: [0.0711521]  dof: [1.]  reduced chisq: [0.0711521]
+#    image number: 2  band: nircam_f200w  chisq: [0.0009012]  dof: [1.]  reduced chisq: [0.0009012]
+#    image number: 3  band: nircam_f277w  chisq: [0.5089433]  dof: [1.]  reduced chisq: [0.5089433]
+#    image number: 4  band: nircam_f356w  chisq: [1.1949991]  dof: [1.]  reduced chisq: [1.1949991]
+#    image number: 5  band: nircam_f410m  chisq: [0.4794964]  dof: [1.]  reduced chisq: [0.4794964]
+#    image number: 6  band: nircam_f444w  chisq: [1.0234115]  dof: [1.]  reduced chisq: [1.0234115]
+############ fitting summary ############ 
+# num_steps: 20000  learning_rate: 0.0008 calculate_hessian: False 
+# free parameters:
+pname    best_value
+total_f_cont_bin1    -0.8192
+total_f_cont_bin2    -5.5676
+total_f_cont_bin3    -5.4042
+total_f_cont_bin4    -4.7445
+total_f_cont_bin5    -2.9411
+total_Av_value    0.3005
+logM_total    8.7756
+Sigma_MZR_total    0.0307
+# fixed parameters:
+# pname    fixed_value
+csx_nircam_f115w    0.0000
+csy_nircam_f115w    0.0000
+sky_nircam_f115w    0.0000
+csx_nircam_f150w    0.0000
+csy_nircam_f150w    0.0000
+sky_nircam_f150w    0.0000
+csx_nircam_f200w    0.0000
+csy_nircam_f200w    0.0000
+sky_nircam_f200w    0.0000
+csx_nircam_f277w    0.0000
+csy_nircam_f277w    0.0000
+sky_nircam_f277w    0.0000
+csx_nircam_f356w    0.0000
+csy_nircam_f356w    0.0000
+sky_nircam_f356w    0.0000
+csx_nircam_f410m    0.0000
+csy_nircam_f410m    0.0000
+sky_nircam_f410m    0.0000
+csx_nircam_f444w    0.0000
+csy_nircam_f444w    0.0000
+sky_nircam_f444w    0.0000
+total_Z_value    0.0038
+total_sigma    100.0000
+logU_total    -2.0000
+AVbump_total    3.0000
+logMdust_total    8.1400
+Umin_total    1.0000
+qPAH_total    1.0000
+alphad_total    1.0000
+gammad_total    0.1000
+total_xcen    0.0000
+total_ycen    0.0000
+total_Re    0.2000
+total_n    2.0000
+total_ang    0.0000
+total_axrat    0.8000
+z_mygal    0.4620
+scale_mygal    6.0197
+######################################### 
