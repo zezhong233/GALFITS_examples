@@ -1,0 +1,169 @@
+# This is a galfitS configuration file for galaxy 8021
+# The config file provide a galfitS setup to perform a single sersic SED fitting with multi-band images.
+# Region information
+R1) 8021
+R2) [214.9112201,52.843066]
+R3) 2.336 
+
+# Image A 
+Ia1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f115w.fits,0] 
+Ia2)  nircam_f115w
+Ia3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f115w.fits,2] 
+Ia4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f115w.fits,3]
+Ia5)  1
+Ia6)  [Noimg,0]
+Ia7)  cR
+Ia8)  -1 
+Ia9)  1 
+Ia10) 28.96697568756239
+Ia11) uniform
+Ia12) [[0,-0.5,0.5,0.1,0]]
+Ia13) 0
+Ia14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Ia15) 1
+
+# Image B 
+Ib1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f150w.fits,0] 
+Ib2)  nircam_f150w
+Ib3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f150w.fits,2] 
+Ib4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f150w.fits,3]
+Ib5)  1
+Ib6)  [Noimg,0]
+Ib7)  cR
+Ib8)  -1 
+Ib9)  1 
+Ib10) 28.96697568756239
+Ib11) uniform
+Ib12) [[0,-0.5,0.5,0.1,0]]
+Ib13) 0
+Ib14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Ib15) 1
+
+# Image C 
+Ic1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f200w.fits,0] 
+Ic2)  nircam_f200w
+Ic3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f200w.fits,2] 
+Ic4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f200w.fits,3]
+Ic5)  1
+Ic6)  [Noimg,0]
+Ic7)  cR
+Ic8)  -1 
+Ic9)  1 
+Ic10) 28.96697568756239
+Ic11) uniform
+Ic12) [[0,-0.5,0.5,0.1,0]]
+Ic13) 0
+Ic14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Ic15) 1
+
+# Image D 
+Id1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f277w.fits,0] 
+Id2)  nircam_f277w
+Id3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f277w.fits,2] 
+Id4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f277w.fits,3]
+Id5)  1
+Id6)  [Noimg,0]
+Id7)  cR
+Id8)  -1 
+Id9)  1 
+Id10) 27.461825709242483
+Id11) uniform
+Id12) [[0,-0.5,0.5,0.1,0]]
+Id13) 0
+Id14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Id15) 1
+
+# Image E 
+Ie1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f356w.fits,0] 
+Ie2)  nircam_f356w
+Ie3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f356w.fits,2] 
+Ie4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f356w.fits,3]
+Ie5)  1
+Ie6)  [Noimg,0]
+Ie7)  cR
+Ie8)  -1 
+Ie9)  1 
+Ie10) 27.461825709242483
+Ie11) uniform
+Ie12) [[0,-0.5,0.5,0.1,0]]
+Ie13) 0
+Ie14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Ie15) 1
+
+# Image F 
+If1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f410m.fits,0] 
+If2)  nircam_f410m
+If3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f410m.fits,2] 
+If4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f410m.fits,3]
+If5)  1
+If6)  [Noimg,0]
+If7)  cR
+If8)  -1 
+If9)  1 
+If10) 27.461825709242483
+If11) uniform
+If12) [[0,-0.5,0.5,0.1,0]]
+If13) 0
+If14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+If15) 1
+
+# Image G 
+Ig1)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f444w.fits,0] 
+Ig2)  nircam_f444w
+Ig3)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f444w.fits,2] 
+Ig4)  [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/8021/mass_guess/total/nircam_f444w.fits,3]
+Ig5)  1
+Ig6)  [Noimg,0]
+Ig7)  cR
+Ig8)  -1 
+Ig9)  1 
+Ig10) 27.461825709242483
+Ig11) uniform
+Ig12) [[0,-0.5,0.5,0.1,0]]
+Ig13) 0
+Ig14) [[0,-5,5,0.1,0],[0,-5,5,0.1,0]]
+Ig15) 1
+
+# Image atlas
+Aa1) 'all'
+Aa2) ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+Aa3) 0
+Aa4) 0
+Aa5) []
+Aa6) []
+Aa7) []
+
+# Profile A
+Pa1) total
+Pa2) sersic
+Pa3) [0,-0.3,0.3,0.1,0]
+Pa4) [0,-0.3,0.3,0.1,0]
+Pa5) [0.2,0.1,1.7,0.1,0]
+Pa6) [2,0.5,6,0.1,0]
+Pa7) [0,-90,90,1,0]
+Pa8) [0.8,0.5,1,0.01,0]
+Pa9) [[-2,-8,0,0.1,1],[-2,-8,0,0.1,1],[-2,-8,0,0.1,1],[-2,-8,0,0.1,1],[-2,-8,0,0.1,1]]
+Pa10) [0, 0.1, 0.23, 0.51, 1.15, 2.6]
+Pa11) [[0.02,0.001,0.04,0.001,1]]
+Pa12) [[0.7,0.3,5.1,0.1,1]]
+Pa13) [100,40,200,1,0]
+Pa14) [9,6,12,0.1,1]
+Pa15) bins 
+Pa16) [-2,-4,-2,0.1,0]
+Pa26) [3,0,5,0.1,0]
+Pa27) 0
+Pa28) [8.14,4.5,10,0.1,0]
+Pa29) [1.0, 0.1, 50, 0.1, 0]
+Pa30) [1.0, 0.47, 7.32, 0.1, 0]
+Pa31) [1.0, 1.0, 3.0, 0.1, 0]
+Pa32) [0.1, 0, 1.0, 0.1, 0]
+
+# Galaxy A
+Ga1) mygal
+Ga2) ['a']
+Ga3) [2.336,0.01,12.0,0.01,0]
+Ga4) 0.01
+Ga5) [1.0,0.5,2,0.05,0]
+Ga6) []
+Ga7) 1
+
