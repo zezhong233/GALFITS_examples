@@ -1,10 +1,10 @@
 ### Round 1
-
 **1. 拟合所需的初始参数配置文件**
-- obj2114_s1.lyric 
 
-```bash
-galfits obj2114_s1.lyric --workplace results --fit_method ES --num_generations 10000 --popsize 20
+- 2114/results/nosed/s1/obj2114_s1.lyric
+
+```bash 
+galfits 2114/results/nosed/s1/obj2114_s1.lyric --workplace 2114/results/nosed/s1 --fit_method ES --num_generations 10000
 ```
 
 **2. 拟合输出文件名**
@@ -14,195 +14,407 @@ galfits obj2114_s1.lyric --workplace results --fit_method ES --num_generations 1
 - obj2114_s1_nosed_1.params
 - obj2114_s1_nosed_1.constrain 
 
-**3. 本轮观察到的问题**
+**3. overall Judgement**
 
-- 图像残差属于竖直方向偏蓝，水平方向偏红
+- Bad fit
 
-**4. 采取的动作**
+**4. fitting problems**:
 
-- 添加一个bar, 固定n=0.5(通常用来描述bar)的模型。   
-  - 中心设置成和disk一致的估计，半径r_e设置较小(0.15),轴比设置0.3方向角，
-- 修改disk参数：r_e变大(0.38)，重制并放大方向角的范围([-180,180]),轴比设置变大（0.6） 
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - There is obvious bar-like structure in y axis in the data column and the single sersic component is trying to fitting it so it's reddish in horizontal irection and bluish in the vertical direction.
 
-**5. 调整理由**
+- sed plot
+  - Check whether model points are close to observed points overall
+    - no sed 
+  - Check whether systematic offsets exist across wavelengths
+    - no sed 
 
-- 存在竖直方向的过度拟合而水平方向没有被拟合，说明disk被很强的竖直方向特征带走，从cut image上面也可以看出有bar的特征。
-  - 中心假设同一个星系有着相近的中心，半径相比与disk肯定会比较小，轴比因为是棒状结构，肯定会比较小。
-- disk：r_e因为中心多了一个bar成分，所以半光半径应该会变大，第一次和GalfitX给出的初始值会受到bar的影响，所以重制并扩大范围比较合适；轴比同理也应稍微变大。
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - BIC is larger than 1 overall, not a good fit
+  - Whether BIC indicates a better model (if comparison exists)
+    - no comparison
+  - Whether the fitting process has converged
+    - yes
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no
+              
+
+**5. Next-Step Decision**: 
+
+- Add a bar-like Sérsic component
+
+**6. reasons for next step**
+
+- obvious bar-like structure in data.
+  
+- parameters changing
+  - new disk:
+    - changing n to 1 
+    - slightly enlarging q to 0.6
+    - set the initial PA to 0.(for the guess from galfitX if biased by bar)
+  - bar 
+    - fix n as 0.5
+    - slightly decreasing q to 0.3
+    - using the PA best value of s1 fitting as initial guess.(the s1 is trying to fit bar)
+
+
 
 ### Round 2
 **1. 拟合所需的初始参数配置文件**
 
-- obj2114_s2_dbar.lyric
+- 2114/results/nosed/s2/obj2114_s2_dbar.lyric
 
-```bash
-galfits obj2114_s2_dbar.lyric --workplace results --fit_method ES --num_generations 10000 --popsize 15
+```bash 
+galfits 2114/results/nosed/s2/obj2114_s2_dbar.lyric --workplace 2114/results/nosed/s2 --fit_method ES --num_generations 10000
 ```
 
 **2. 拟合输出文件名**
 
-- obj2114_s2_dbar_nosed_1image_fit.png
-- obj2114_s2_dbar_nosed_1.gsssummary
-- obj2114_s2_dbar_nosed_1.params
-- obj2114_s2_dbar_nosed_1.constrain 
+- obj2114_s2_dbarimage_fit.png
+- obj2114_s2_dbar.gsssummary
+- obj2114_s2_dbar.params
+- obj2114_s2_dbar.constrain 
 
-**3. 本轮观察到的问题**
+**3. overall Judgement**
 
-- 观察到整体轮廓大体拟合完成，无明显延展成分。
-- 中心出现一个核状区域，说明存在agn或者compact bulge, 可以尝试添加AGN 和Bulge。
-- 出现旋臂结构
+- Bad fit
 
-**4. 采取的动作**
+**4. fitting problems**:
 
-- 添加一个agn或者bulge
-- 暂时不管旋臂
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - obvious spiral arm and central component.
 
-**5. 调整理由**
+- sed plot
+  - Check whether model points are close to observed points overall
+    - no sed 
+  - Check whether systematic offsets exist across wavelengths
+    - no sed 
 
-- 旋臂对于质量和半径的测量影响不大。
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - better than s1 fitting 
+  - Whether BIC indicates a better model (if comparison exists)
+    - better than s1 fitting 
+  - Whether the fitting process has converged
+    - yes
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no
+              
+
+**5. Next-Step Decision**: 
+
+- Add a bulge-like Sérsic component
+
+
+**6. reasons for next step**
+
+- obvious compact structure(for the degeneracy of compact bulge and agn, we will using agn only when we've already known there is a agn or the bulge fitting's R_e is very small)
+
+- parameters changing
+  - bulge 
+    - very small initial R_e (0.04) and give a reasonable changing range(0.01-0.20).
+    - setting initial n as 4.
+    - setting PA as 0.(for no enough info to guess PA)
+    - setting q as same as disk 
+
 
 ### Round 3
 **1. 拟合所需的初始参数配置文件**
 
-- obj2114_s3_dbdbar.lyric 
+- 2114/results/nosed/s3/obj2114_s3_dbbar.lyric
 
-```bash
-galfits obj2114_s3_dbdbar.lyric  --workplace --fit_method ES --num_generations 10000 --popsize 15
+```bash 
+galfits 2114/results/nosed/s3/obj2114_s3_dbbar.lyric --workplace 2114/results/nosed/s3 --fit_method ES --num_generations 20000
 ```
 
 **2. 拟合输出文件名**
 
-- obj2114_s3_bdbar_nosed_1image_fit.png
-- obj2114_s3_bdbar_nosed_1.gsssummary
-- obj2114_s3_bdbar_nosed_1.params
-- obj2114_s3_bdbar_nosed_1.constrain 
+- obj2114_s3_dbbarimage_fit.png
+- obj2114_s3_dbbar.gsssummary
+- obj2114_s3_dbbar.params
+- obj2114_s3_dbbar.constrain 
 
-**3. 本轮观察到的问题**
+**3. overall Judgement**
 
-- 看见中间可以一定程度上被拟合(BIC显著降低)，不过观察到轴比非常小，我认为是收到了旋臂的影响，不过这没什么办法。
+- Good fit
 
-**4. 采取的动作**
+**4. fitting problems**:
 
-- 无
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - obvious spiral structure
 
-**5. 调整理由**
+- sed plot
+  - Check whether model points are close to observed points overall
+    - no sed
+  - Check whether systematic offsets exist across wavelengths
+    - no sed 
 
-- 这一步是为了给sed fitting 寻找成分的几何参数.
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - all lower than 1, better than s2. 
+  - Whether BIC indicates a better model (if comparison exists)
+    - better than s2
+  - Whether the fitting process has converged
+    - yes 
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no 
+              
+
+**5. Next-Step Decision**: 
+
+- Ready for SED Fitting
+
+
+**6. reasons for next step**
+-  don't consider spiral arm structure currently
+
+
 
 ### Round 4
 **1. 拟合所需的初始参数配置文件**
 
-- obj2114_s2_dbar_agn.lyric 
+- 2114/mass_guess/total/2114_total_pure_sed.lyric
 
-```bash
-galfits obj2114_s2_dbar_agn.lyric --workplace results --fit_method ES --num_generations 10000 --popsize 15
+```bash 
+galfits 2114/mass_guess/total/2114_total_pure_sed.lyric --workplace 2114/mass_guess/total/results --fit_method ES --num_generations 10000 --prior 2114/mass_guess/total/2114.prior 
 ```
 
 **2. 拟合输出文件名**
 
-- obj2114_s2_dbar_agn_nosed_1image_fit.png
-- obj2114_s2_dbar_agn_nosed_1.gsssummary
-- obj2114_s2_dbar_agn_nosed_1.params
-- obj2114_s2_dbar_agn_nosed_1.constrain 
+- 2114.png
+- 2114.gsssummary
+- 2114.params
+- 2114.constrain 
 
-**3. 本轮观察到的问题**
+**3. overall Judgement**
 
-- 中心的成分只有很小一部分被覆盖，
+- Good fit
 
-**4. 采取的动作**
+**4. fitting problems**:
 
-- 放弃agn
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - no image. 
 
-**5. 调整理由**
+- sed plot
+  - Check whether model points are close to observed points overall
+    - yes
+  - Check whether systematic offsets exist across wavelengths
+    - no 
 
-- 说明是AGN的概率不大，这里认为用更延展的bulge 去拟合。
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - not physical(for over-simplified error estimation)
+  - Whether BIC indicates a better model (if comparison exists)
+    - no comparison 
+  - Whether the fitting process has converged
+    - yes 
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no 
+              
+
+**5. Next-Step Decision**: 
+
+- Ready for Image-SED Fitting
+
+**6. reasons for next step**
+- sed plot doesn't show significant offset; parameters in gssummary are reasonable.
+
+- parameters changing 
+  - using pure sed fitting best results as the initial guess of sed+image fitting.
+  - fix geo parameters and free sed params 
+
+
+
+
+### Round 5
+**1. 拟合所需的初始参数配置文件**
+
+- 2114/results/sed/ES_fix/obj2114_s3_dbbar_sed_ES_fix.lyric
+
+```bash 
+galfits 2114/results/sed/ES_fix/obj2114_s3_dbbar_sed_ES_fix.lyric --workplace 2114/results/sed/ES_fix --fit_method ES --num_generations 10000 --prior 2114/prior.prior
+```
+
+**2. 拟合输出文件名**
+
+- obj2114_s3_dbbar_sed_ES_fix.png
+- obj2114_s3_dbbar_sed_ES_fix.gsssummary
+- obj2114_s3_dbbar_sed_ES_fix.params
+- obj2114_s3_dbbar_sed_ES_fix.constrain 
+
+**3. overall Judgement**
+
+- Good fit
+
+**4. fitting problems**:
+
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - no obvious structure except for spiral arm; no significant depravation in comparison with nosed fitting.
+
+- sed plot
+  - Check whether model points are close to observed points overall
+    - yes
+  - Check whether systematic offsets exist across wavelengths
+    - no 
+
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - yes
+  - Whether BIC indicates a better model (if comparison exists)
+    - no comparison 
+  - Whether the fitting process has converged
+    - yes 
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no 
+              
+
+**5. Next-Step Decision**: 
+
+  - update parameters(just --readsummary xxx.gssuuamry)
+  - free geo parameters
+
+
+**6. reasons for next step**
+
+- image no significant depravation in comparison with nosed fitting / sed plot doesn't show significant offset / parameters in gssummary is reasonable and don't reach the boundary.
+
 
 ### Round 6
 **1. 拟合所需的初始参数配置文件**
 
-- obj2114_s1_sed.lyric 
+- 2114/results/sed/ES_free/obj2114_s3_dbbar_sed_ES.lyric
 
-```bash
-galfits obj2114_s1_sed.lyric --workplace results --fit_method ES --num_generations 10000 --popsize 15
+```bash 
+galfits 2114/results/sed/ES_free/obj2114_s3_dbbar_sed_ES.lyric --workplace 2114/results/sed/ES_free --fit_method ES --num_generations 10000 --prior 2114/prior.prior --readsummary 2114/results/sed/ES_fix/obj2114_s3_dbbar_sed_ES_fix.gssummary
 ```
 
 **2. 拟合输出文件名**
 
-- obj2114_s1_sed_1image_fit.png
-- obj2114_s1_sed_1SED_model.png
-- obj2114_s1_sed_1.gsssummary
-- obj2114_s1_sed_1.params
-- obj2114_s1_sed_1.constrain 
+- obj2114_s3_dbbar_sed_ES_free.png
+- obj2114_s3_dbbar_sed_ES_free.gsssummary
+- obj2114_s3_dbbar_sed_ES_free.params
+- obj2114_s3_dbbar_sed_ES_free.constrain 
+
+**3. overall Judgement**
+
+- Good fit
+
+**4. fitting problems**:
+
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - no obvious structure except for spiral arm; no significant depravation in comparison with nosed fitting.
+
+- sed plot
+  - Check whether model points are close to observed points overall
+    - yes
+  - Check whether systematic offsets exist across wavelengths
+    - no 
+
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - yes
+  - Whether BIC indicates a better model (if comparison exists)
+    - BIC reduced in comparison with ES_fix fitting.
+  - Whether the fitting process has converged
+    - yes 
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no 
+              
+
+**5. Next-Step Decision**: 
+
+- update parameters 
+- using optimizer method to go further on.
+
+**6. reasons for next step**
+
+- optimizer method would be better in finding best-fit values.
 
 
-**3. 本轮观察到的问题**
 
-- 无
-
-**4. 采取的动作**
-
-- 星系总质量在10**9.5 solar mass量级
-
-**5. 调整理由**
-
-- 因为星系的亮度和质量相关，用单成分拟合可以获得基本的亮度，进而基本的质量信息。
-  - 之后这一步和下一步会变成从多成分 pure sed fitting 进行测光点的光谱拟合来确定不同成分的质量。
 
 
 ### Round 7
 **1. 拟合所需的初始参数配置文件**
 
-- obj2114_s2_dbar_sed.lyric
+- 2114/results/sed/opt_free/obj2114_s3_dbbar_sed_opt.lyric
+
 ```bash 
-galfits obj2114_s2_dbar_sed.lyric --workplace results --fit_method ES --num_generations 10000 --popsize 15
+galfits 2114/results/sed/opt_free/obj2114_s3_dbbar_sed_opt.lyric --workplace 2114/results/sed/opt_free --fit_method ES --num_generations 10000 --prior 2114/prior.prior --readsummary 2114/results/sed/ES_free/obj2114_s3_dbbar_sed_ES_free.gssummary
 ```
 
 **2. 拟合输出文件名**
 
-- obj2114_s2_dbar_sed_1image_fit.png
-- obj2114_s2_dbar_sed_1SED_model.png
-- obj2114_s2_dbar_sed_1.gsssummary
-- obj2114_s2_dbar_sed_1.params
-- obj2114_s2_dbar_sed_1.constrain 
+- obj2114_s3_dbbar_sed_opt_free.png
+- obj2114_s3_dbbar_sed_opt_free.gsssummary
+- obj2114_s3_dbbar_sed_opt_free.params
+- obj2114_s3_dbbar_sed_opt_free.constrain 
 
-**3. 本轮观察到的问题**
+**3. overall Judgement**
 
-- 拟合结果和双成分nosed 拟合相似，说明还行。 中心仍然有亮源。
-- disk的质量在9.5左右， bar的质量在9左右，和round 6的结论吻合
+- Good fit
 
-**4. 采取的动作**
+**4. fitting problems**:
 
-- 添加一个compact bulge 成分
+- image 
+  - Check whether there are obvious remaining structures (e.g., central excess, rings, bars, asymmetric patterns)
+    - no obvious structure except for spiral arm; no significant depravation in comparison with nosed fitting.
 
-**5. 调整理由**
+- sed plot
+  - Check whether model points are close to observed points overall
+    - yes
+  - Check whether systematic offsets exist across wavelengths
+    - no 
 
-- round 5,6的对比结果
+- gssummary
+  - Whether the reduced chi-square is within a reasonable range
+    - yes
+  - Whether BIC indicates a better model (if comparison exists)
+    - BIC reduced in comparison with ES_free fitting.
+  - Whether the fitting process has converged
+    - yes 
+  - Check whether parameters are physically reasonable
+    - yes
+  - Check if parameters are close to min/max limits
+    - no 
+              
+
+**5. Next-Step Decision**: 
+
+- finished 
+
+**6. reasons for next step**
+
+- xxx
 
 
-### Round 8
-**1. 拟合所需的初始参数配置文件**
-
-- obj2114_s3_dbdbar_sed.lyric
-
-```bash
-galfits obj2114_s3_dbdbar_sed.lyric --workplace results --fit_method ES --num_generations 20000 --popsize 15
-```
-
-**2. 拟合输出文件名**
 
 
-- obj2114_s3_bdbar_sed_1image_fit.png
-- obj2114_s3_bdbar_sed_1SED_model.png
-- obj2114_s3_bdbar_sed_1.gsssummary
-- obj2114_s3_bdbar_sed_1.params
-- obj2114_s3_bdbar_sed_1.constrain 
-
-**3. 本轮观察到的问题**
-
-- 残差基本消除，和nosed fitting 残差图相差不大，chi^2略大可以理解，认为拟合完毕.
 
 
-**4. 采取的动作**
 
-**5. 调整理由**
+
+
+
+
+
 
