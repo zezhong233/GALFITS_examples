@@ -1,0 +1,83 @@
+# target: obj6414_s1_nosed
+# config file: /home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P9/6414/results/nosed/s1/obj6414_s1.lyric
+# fitting mode: images - photometry
+# fiting method: ES
+# chisq: 118128.125
+# reduced chisq: 0.7377152442932129
+# BIC: 118451.6875
+# fitting time: 0.9555899898211161 mins
+############# data summary ############## 
+# image atals: jwst
+#    image number: 0  band: nircam_f115w  chisq: [33391.863]  dof: [39943.]  reduced chisq: [0.83598787]
+#    image number: 1  band: nircam_f150w  chisq: [24569.45]  dof: [39943.]  reduced chisq: [0.6151128]
+#    image number: 2  band: nircam_f200w  chisq: [29223.174]  dof: [39943.]  reduced chisq: [0.7316219]
+#    image number: 3  band: nircam_f277w  chisq: [9589.709]  dof: [10082.]  reduced chisq: [0.9511713]
+#    image number: 4  band: nircam_f356w  chisq: [8586.591]  dof: [10081.]  reduced chisq: [0.85175985]
+#    image number: 5  band: nircam_f410m  chisq: [5727.4805]  dof: [10081.]  reduced chisq: [0.56814605]
+#    image number: 6  band: nircam_f444w  chisq: [7039.854]  dof: [10081.]  reduced chisq: [0.6983289]
+############ fitting summary ############ 
+# num_generations: 10000  popsize: 10 
+# free parameters:
+pname    best_value
+csx_nircam_f115w    0.3543
+csy_nircam_f115w    0.6293
+csx_nircam_f150w    0.5975
+csy_nircam_f150w    0.8610
+csx_nircam_f200w    0.1639
+csy_nircam_f200w    0.6637
+csx_nircam_f277w    -0.6450
+csy_nircam_f277w    0.1161
+csx_nircam_f356w    -0.1384
+csy_nircam_f356w    -0.2018
+csx_nircam_f410m    -0.4580
+csy_nircam_f410m    -0.7798
+csx_nircam_f444w    -0.7014
+csy_nircam_f444w    -0.3151
+logNorm_disk_nircam_f115w    -5.0330
+logNorm_disk_nircam_f150w    -4.9832
+logNorm_disk_nircam_f200w    -4.9481
+logNorm_disk_nircam_f277w    -5.6041
+logNorm_disk_nircam_f356w    -5.7777
+logNorm_disk_nircam_f410m    -5.8682
+logNorm_disk_nircam_f444w    -5.8756
+disk_xcen    -0.0426
+disk_ycen    -0.0335
+disk_Re    0.1345
+disk_n    0.8456
+disk_ang    32.4499
+disk_axrat    0.8855
+# fixed parameters:
+# pname    fixed_value
+sky_nircam_f115w    0.0000
+sky_nircam_f150w    0.0000
+sky_nircam_f200w    0.0000
+sky_nircam_f277w    0.0000
+sky_nircam_f356w    0.0000
+sky_nircam_f410m    0.0000
+sky_nircam_f444w    0.0000
+disk_f_cont_bin1    -2.0000
+disk_f_cont_bin2    -2.0000
+disk_f_cont_bin3    -2.0000
+disk_f_cont_bin4    -2.0000
+disk_f_cont_bin5    -2.0000
+disk_Z_value    0.0100
+disk_Av_value    0.7000
+disk_sigma    100.0000
+logM_disk    7.5000
+logU_disk    -2.0000
+AVbump_disk    3.0000
+logMdust_disk    8.1400
+Umin_disk    1.0000
+qPAH_disk    1.0000
+alphad_disk    1.0000
+gammad_disk    0.1000
+Mag_disk_nircam_f115w    22.7995
+Mag_disk_nircam_f150w    22.6750
+Mag_disk_nircam_f200w    22.5872
+Mag_disk_nircam_f277w    22.7222
+Mag_disk_nircam_f356w    23.1561
+Mag_disk_nircam_f410m    23.3822
+Mag_disk_nircam_f444w    23.4008
+z_galaxy_1    0.3550
+scale_galaxy_1    5.1365
+######################################### 
