@@ -13,7 +13,7 @@ Ia4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F115W_hybrid.fits,0]
 Ia5) 1
 Ia6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f115w_mask.fits,0]
 Ia7) MJy/sr
-Ia8) 2 
+Ia8) 1
 Ia9) 4.692087135707939e+20 
 Ia10) 28.96697568756239
 Ia11) uniform
@@ -30,7 +30,7 @@ Ib4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F150W_hybrid.fits,0]
 Ib5) 1
 Ib6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f150w_mask.fits,0]
 Ib7) MJy/sr
-Ib8) 2 
+Ib8) 1
 Ib9) 7.982756941658119e+20 
 Ib10) 28.96697568756239
 Ib11) uniform
@@ -47,7 +47,7 @@ Ic4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F200W_hybrid.fits,0]
 Ic5) 1
 Ic6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f200w_mask.fits,0]
 Ic7) MJy/sr
-Ic8) 2 
+Ic8) 1
 Ic9) 1.4191567896281098e+21 
 Ic10) 28.96697568756239
 Ic11) uniform
@@ -64,7 +64,7 @@ Id4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F277W_hybrid.fits,0]
 Id5) 1
 Id6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f277w_mask.fits,0]
 Id7) MJy/sr
-Id8) 2 
+Id8) 1
 Id9) 6.805655081960954e+20 
 Id10) 27.461825709242483
 Id11) uniform
@@ -81,7 +81,7 @@ Ie4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F356W_hybrid.fits,0]
 Ie5) 1
 Ie6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f356w_mask.fits,0]
 Ie7) MJy/sr
-Ie8) 2 
+Ie8) 1
 Ie9) 1.124114093064426e+21 
 Ie10) 27.461825709242483
 Ie11) uniform
@@ -98,7 +98,7 @@ If4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F410M_hybrid.fits,0]
 If5) 1
 If6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f410m_mask.fits,0]
 If7) MJy/sr
-If8) 2 
+If8) 1
 If9) 1.491001602103033e+21 
 If10) 27.461825709242483
 If11) uniform
@@ -115,7 +115,7 @@ Ig4) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/PSF/F444W_hybrid.fits,0]
 Ig5) 1
 Ig6) [/home/zhongyi/work/GALFITS/DATA/ZHIJIANG/P4/13374/f444w_mask.fits,0]
 Ig7) MJy/sr
-Ig8) 2 
+Ig8) 1
 Ig9) 1.7485430805007945e+21 
 Ig10) 27.461825709242483
 Ig11) uniform
@@ -148,7 +148,7 @@ Pa10) [0, 0.1, 0.27, 0.72, 1.94, 5.22]
 Pa11) [[0.01,0.001,0.04,0.001,0]] 
 Pa12) [[0.7,0.1,5.1,0.1,0]] 
 Pa13) [100,40,200,1,0] 
-Pa14) [7.5,4,12,0.1,1] 
+Pa14) [7.5,4,12,0.1,0] 
 Pa15) bins 
 Pa16) [-2,-4,-2,0.1,0] 
 Pa26) [3,0,5,0.1,0] 
@@ -163,7 +163,7 @@ Pb1) bulge
 Pb2) sersic
 Pb3) [-0.02,-0.32,0.28,0.1,1]
 Pb4) [-0.01,-0.31,0.29,0.1,1]
-Pb5) [0.05,0.01,1.00,0.02,1] 
+Pb5) [0.06,0.01,1.00,0.02,1] 
 Pb6) [4,0.2,8,0.1,1] 
 Pb7) [11.34,-180.00,180.00,1,1] 
 Pb8) [0.70,0.1,1,0.02,1] 
@@ -172,7 +172,7 @@ Pb10) [0, 0.1, 0.27, 0.72, 1.94, 5.22]
 Pb11) [[0.01,0.001,0.04,0.001,0]] 
 Pb12) [[0.7,0.1,5.1,0.1,0]] 
 Pb13) [100,40,200,1,0] 
-Pb14) [7.5,4,12,0.1,1] 
+Pb14) [7.5,4,12,0.1,0] 
 Pb15) bins 
 Pb16) [-2,-4,-2,0.1,0] 
 Pb26) [3,0,5,0.1,0] 
@@ -181,8 +181,7 @@ Pb28) [8.14,4.5,10,0.1,0]
 Pb29) [1.0, 0.1, 50, 0.1, 0] 
 Pb30) [1.0, 0.47, 7.32, 0.1, 0] 
 Pb31) [1.0, 1.0, 3.0, 0.1, 0]  
-Pb32) [0.1, 0, 1.0, 0.1, 0]  
-
+Pb32) [0.1, 0, 1.0, 0.1, 0] 
 
 Ga1) galaxy_1
 Ga2) ["a", "b"]
