@@ -1,0 +1,4 @@
+def Update_Constraints(pardictlc):
+    pardictlc['total_Z_value'] = 0.02*10**(5.74+0.25*pardictlc['logM_total']+pardictlc['Sigma_MZR_total']-8.69)
+    pardictlc['total_Z_value'] = jnp.maximum(pardictlc['total_Z_value'], 0.00001)
+    pardictlc['total_Z_value'] = jnp.minimum(pardictlc['total_Z_value'], 0.04)
