@@ -28,7 +28,7 @@ disk_f_cont_bin5 -2.0 -8 0 0.1 False None
 disk_Z_value 0.01 0.001 0.04 0.001 False None
 disk_Av_value 0.7 0 5.1 0.1 False None
 disk_sigma 100.0 40 200 1 False None
-logM_disk 7.5 4 12 0.1 True None
+logM_disk 7.5 4 12 0.1 False None
 logU_disk -2.0 -4 -2 0.1 False None
 AVbump_disk 3.0 0 5 0.1 False None
 logMdust_disk 8.14 4.5 10.0 0.1 False None
@@ -64,7 +64,7 @@ bulge_f_cont_bin5 -2.0 -8 0 0.1 False None
 bulge_Z_value 0.01 0.001 0.04 0.001 False None
 bulge_Av_value 0.7 0 5.1 0.1 False None
 bulge_sigma 100.0 40 200 1 False None
-logM_bulge 7.5 4 12 0.1 True None
+logM_bulge 7.5 4 12 0.1 False None
 logU_bulge -2.0 -4 -2 0.1 False None
 AVbump_bulge 3.0 0 5 0.1 False None
 logMdust_bulge 8.14 4.5 10.0 0.1 False None
@@ -88,9 +88,9 @@ logNorm_bulge_nircam_f444w -5.943127155303955 -8.943126678466797 -3.943127155303
 Mag_bulge_nircam_f444w 23.56964359750237 -inf inf None False 27.461825709242483-2.5*logM_bulge-2.5*logNorm_bulge_nircam_f444w
 bulge_xcen -0.08 -0.38 0.22 0.1 True None
 bulge_ycen -0.0 -0.3 0.3 0.1 True None
-bulge_Re 0.08 0.01 1.0 0.02 True None
+bulge_Re 0.1 0.01 1.0 0.02 True None
 bulge_n 4.0 0.2 8 0.1 True None
 bulge_ang 143.63 -180.0 180.0 1 True None
-bulge_axrat 0.5 0.1 1 0.02 True None
+bulge_axrat 0.21 0.1 1 0.02 True None
 z_galaxy_1 2.336 0.01 12 0.01 False None
 scale_galaxy_1 8.385535209395352 0.02 12 0.01 False None
