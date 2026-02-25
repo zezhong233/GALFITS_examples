@@ -227,7 +227,7 @@ galfit 8021/results/sed/ES_fix/obj8021_s2_ES_fix.lyric --workpalce 8021/results/
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
 
 **6. reasons for next step**
 
@@ -288,7 +288,7 @@ galfits 8021/results/sed/ES_free/obj8021_s2_ES_free.lyric --workplace 8021/resul
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
   - using optimizer method to g further.
 
 
@@ -346,7 +346,7 @@ galfits 8021/results/sed/opt_free/obj8021_s2_opt_free.lyric --workplace 8021/res
 
 **5. Next-Step Decision**: 
 
-- finished 
+- Stop fitting
 
 **6. reasons for next step**
 

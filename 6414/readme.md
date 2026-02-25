@@ -352,7 +352,7 @@ galfits 6414/results/sed/opt_free/obj6414_s2_sed_opt_free.lyric --workplace 6414
 
 **5. Next-Step Decision**: 
 
-- finished
+- Stop fitting
 
 **6. reasons for next step**
 

@@ -28,7 +28,7 @@ disk_f_cont_bin5 -2.0 -8 0 0.1 False None
 disk_Z_value 0.01 0.001 0.04 0.001 False None
 disk_Av_value 0.7 0.1 5.1 0.1 False None
 disk_sigma 100.0 40 200 1 False None
-logM_disk 7.5 4 12 0.1 True None
+logM_disk 7.5 4 12 0.1 False None
 logU_disk -2.0 -4 -2 0.1 False None
 AVbump_disk 3.0 0 5 0.1 False None
 logMdust_disk 8.14 4.5 10.0 0.1 False None

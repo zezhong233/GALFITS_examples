@@ -43,5 +43,5 @@ total_n 2.0 0.5 6 0.1 False None
 total_ang 0.0 -90 90 1 False None
 total_axrat 0.8 0.5 1 0.01 False None
 Sigma_MZR_total 0.0 -0.45 0.45 0.010000000000000002 True None
-z_mygal 0.462 0.01 12.0 0.01 False None
-scale_mygal 6.019687968037553 0.02 12 0.01 False None
+z_mygal 0.5449 0.01 12.0 0.01 False None
+scale_mygal 6.569032783712048 0.02 12 0.01 False None

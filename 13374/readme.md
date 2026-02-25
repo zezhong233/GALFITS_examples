@@ -221,7 +221,7 @@ galfits 13374/results/sed/ES_fix/obj13374_s2_ES_fix.lyric --workplace 13374/resu
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
 
 
 **6. reasons for next step**
@@ -281,7 +281,7 @@ galfits 13374/results/sed/ES_free/obj13374_s2_ES_free.lyric --workplace 13374/re
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
   - using optimizer to go further 
   
 
@@ -342,7 +342,7 @@ galfits 13374/results/sed/opt_free/obj13374_s2_opt_free.lyric --workplace 13374/
 
 **5. Next-Step Decision**: 
 
-- finished
+- Stop fitting
 
 **6. reasons for next step**
 

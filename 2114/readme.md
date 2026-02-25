@@ -227,7 +227,7 @@ galfits 2114/mass_guess/total/2114_total_pure_sed.lyric --workplace 2114/mass_gu
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
 
 **6. reasons for next step**
 - sed plot doesn't show significant offset; parameters in gssummary are reasonable.
@@ -286,6 +286,7 @@ galfits 2114/results/sed/ES_fix/obj2114_s3_dbbar_sed_ES_fix.lyric --workplace 21
 
 **5. Next-Step Decision**: 
 
+- Adjust existing component parameters
   - update parameters(just --readsummary xxx.gssuuamry)
   - free geo parameters
 
@@ -342,8 +343,9 @@ galfits 2114/results/sed/ES_free/obj2114_s3_dbbar_sed_ES.lyric --workplace 2114/
 
 **5. Next-Step Decision**: 
 
-- update parameters 
-- using optimizer method to go further on.
+- Adjust existing component parameters
+  - update parameters 
+  - using optimizer method to go further on.
 
 **6. reasons for next step**
 
@@ -400,7 +402,7 @@ galfits 2114/results/sed/opt_free/obj2114_s3_dbbar_sed_opt.lyric --workplace 211
 
 **5. Next-Step Decision**: 
 
-- finished 
+- Stop fitting
 
 **6. reasons for next step**
 

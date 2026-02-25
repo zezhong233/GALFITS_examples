@@ -25,7 +25,7 @@ total_f_cont_bin2 -2.0 -8 0 0.1 True None
 total_f_cont_bin3 -2.0 -8 0 0.1 True None
 total_f_cont_bin4 -2.0 -8 0 0.1 True None
 total_f_cont_bin5 -2.0 -8 0 0.1 True None
-total_Z_value 0.02 0.001 0.04 0.001 True None
+total_Z_value 0.02 0.001 0.04 0.001 False None
 total_Av_value 0.7 0.3 5.1 0.1 True None
 total_sigma 100.0 40 200 1 False None
 logM_total 9.0 6 12 0.1 True None
@@ -42,5 +42,6 @@ total_Re 0.2 0.1 1.7 0.1 False None
 total_n 2.0 0.5 6 0.1 False None
 total_ang 0.0 -90 90 1 False None
 total_axrat 0.8 0.5 1 0.01 False None
-z_mygal 2.298 0.01 12.0 0.01 False None
-scale_mygal 8.410681564474876 0.02 12 0.01 False None
+Sigma_MZR_total 0.0 -0.45 0.45 0.010000000000000002 True None
+z_mygal 2.1867 0.01 12.0 0.01 False None
+scale_mygal 8.480684303027715 0.02 12 0.01 False None

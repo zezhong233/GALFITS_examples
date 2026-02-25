@@ -231,7 +231,7 @@ galfits 40/results/sed/ES_fix/obj40_s2_sed.lyric --workplace 40/results/sed/ES_f
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
+- Adjust existing component parameters
 
 **6. reasons for next step**
 
@@ -288,8 +288,7 @@ galfits 40/results/sed/ES_free/obj40_s2_sed_ES_free.lyric --workplace 40/results
 
 **5. Next-Step Decision**: 
 
-- Ready for Image-SED Fitting
-
+- Adjust existing component parameters
 **6. reasons for next step**
 
 - using optimizer method to fit again
@@ -346,7 +345,7 @@ galfits 40/results/sed/opt_free/obj40_s2_sed_opt_free.lyric --workplace 40/resul
 
 **5. Next-Step Decision**: 
 
-- finished
+- Stop fitting
 
 **6. reasons for next step**
 
